@@ -7,13 +7,9 @@ The notebook includes an implementation of K-means, K-means++, and PCA. K-means 
 - **Principal component analysis Implementation**
 - **Compressing image using PCA**
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="margin: 10px; text-align: center;">
-        <img src="../img/KmeansOriginal.JPG" alt="Original Image" width="400" style="display: block; margin-bottom: 5px;"/>
-        <span>Original Image</span>
-    </div>
-    <div style="margin: 10px; text-align: center;">
-        <img src="../img/KmeansCompressed.JPG" alt="Compressed Image" width="400" style="display: block; margin-bottom: 5px;"/>
-        <span>Compressed Image (K=20 pixel color)</span>
-    </div>
-</div>
+<p align="center">
+  <img src="../img/KmeansOriginal.JPG" alt="Original Image" width="300" />  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="../img/KmeansCompressed.JPG" alt=" P-tile thresholded image" width="300" />
+</p>
+
+<p align="center">Original Image on right and Compressed Image (K=20 pixel color) on left </p>
